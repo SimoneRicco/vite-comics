@@ -8,7 +8,9 @@ export default {
   <div class="infos">
     <div class="container">
         <div class="info">
-            <img src="../../img/buy-comics-digital-comics.png" alt="">
+            <div class="img">
+                <img src="../../img/buy-comics-digital-comics.png" alt="">
+            </div>
             <div class="info-text">Digital Comics</div>
         </div>
         <div class="info">
@@ -38,14 +40,14 @@ export default {
         display: flex;
         align-items: center;
         padding: 2rem 0;
-        justify-content: flex-end;
+        justify-content: space-around;
     }
     .info-text{
         text-transform: uppercase;
         color: white;
     }
     img{
-        width: 20%;
+        width: 75px;
     }
     .info{
         display: flex;

@@ -4,7 +4,7 @@
         <li>Comics</li>
         <li>Movies</li>
         <li>Tv</li>
-        <li>Ganes</li>
+        <li>Games</li>
         <li>Colletibles</li>
         <li>Videos</li>
         <li>Fans</li>
