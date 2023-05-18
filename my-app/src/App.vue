@@ -1,6 +1,7 @@
 <script>
 import ContentVue from './components/Content.vue';
 import DcProducts from './components/DcProducts.vue';
+import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 import Info from './components/Info.vue';
 export default {
@@ -8,7 +9,8 @@ export default {
     Header,
     ContentVue,
     Info,
-    DcProducts
+    DcProducts,
+    Footer
   }
 }
 </script>
@@ -19,6 +21,7 @@ export default {
     <ContentVue></ContentVue>
     <Info></Info>
     <DcProducts></DcProducts>
+    <Footer></Footer>
   </div>
 </template>
 
