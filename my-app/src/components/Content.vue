@@ -91,6 +91,7 @@ export default {
             <img src="../../img/jumbotron.jpg" alt="">
         </div>
         <div class="container">
+            <div class="current">Current Series</div>
             <Card 
             v-for="item in myArr"
             :key="item"
@@ -99,6 +100,7 @@ export default {
             >
 
             </Card>
+            <button class="button">Load More</button>
         </div>
     </div>
 </template>
@@ -122,5 +124,22 @@ export default {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    position: relative;
+    padding-top: 2rem;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 8px 26px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.current{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: -20px;
+    padding: 8px 16px;
 }
 </style>
